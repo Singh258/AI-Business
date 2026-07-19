@@ -1,1 +1,205 @@
-Hello Demo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Receptionist Demo | Dental Clinic</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,Helvetica,sans-serif;
+        }
+
+        body{
+            background:#eef4ff;
+        }
+
+        nav{
+            background:#0f172a;
+            color:white;
+            padding:18px 60px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        nav h2{
+            color:#38bdf8;
+        }
+
+        .hero{
+            max-width:1200px;
+            margin:auto;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:80px 40px;
+            gap:60px;
+        }
+
+        .left{
+            flex:1;
+        }
+
+        .left h1{
+            font-size:52px;
+            color:#0f172a;
+            margin-bottom:20px;
+        }
+
+        .left span{
+            color:#0ea5e9;
+        }
+
+        .left p{
+            font-size:20px;
+            color:#555;
+            line-height:1.7;
+            margin-bottom:35px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#0ea5e9;
+            color:white;
+            text-decoration:none;
+            padding:15px 35px;
+            border-radius:10px;
+            font-weight:bold;
+        }
+
+        .chat-box{
+            flex:1;
+            background:white;
+            border-radius:20px;
+            box-shadow:0 10px 35px rgba(0,0,0,.15);
+            overflow:hidden;
+        }
+
+        .chat-header{
+            background:#0f172a;
+            color:white;
+            padding:18px;
+            font-size:22px;
+            text-align:center;
+        }
+
+        .messages{
+            padding:25px;
+            min-height:350px;
+        }
+
+        .bot{
+            background:#eef4ff;
+            padding:15px;
+            border-radius:12px;
+            margin-bottom:15px;
+            width:85%;
+        }
+
+        .user{
+            background:#0ea5e9;
+            color:white;
+            padding:15px;
+            border-radius:12px;
+            margin-left:auto;
+            width:70%;
+            margin-bottom:15px;
+        }
+
+        footer{
+            text-align:center;
+            padding:30px;
+            color:#666;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>AI Receptionist Demo</h2>
+
+<div>
+Dental Clinic
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="left">
+
+<h1>Your <span>24/7 AI Receptionist</span></h1>
+
+<p>
+
+Never miss patient calls again.
+
+This demo shows how an AI receptionist can answer common questions and collect appointment requests automatically.
+
+</p>
+
+<a href="#" class="btn">
+
+Book Demo
+
+</a>
+
+</div>
+
+<div class="chat-box">
+
+<div class="chat-header">
+
+Dental AI Assistant
+
+</div>
+
+<div class="messages">
+
+<div class="bot">
+
+👋 Hello!
+
+Welcome to Smile Dental Clinic.
+
+How can I help you today?
+
+</div>
+
+<div class="user">
+
+Do you accept insurance?
+
+</div>
+
+<div class="bot">
+
+✅ Yes.
+
+We accept most major insurance providers.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+Demo Project #1 • AI Business Portfolio
+
+</footer>
+
+</body>
+
+</html>
