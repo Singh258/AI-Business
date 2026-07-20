@@ -676,31 +676,50 @@ Send
 </div>
 
 </div>
-    <div class="booking">
+<form class="booking"
+      action="https://api.web3forms.com/submit"
+      method="POST">
 
-<h2>
-Book Your Dental Appointment
-</h2>
+<input type="hidden"
+       name="access_key"
+       value="5988a6fc-6fed-4d9d-9a8c-1ca7da272967">
 
-<input placeholder="Patient Name">
+<h2>Book Your Dental Appointment</h2>
 
-<input placeholder="Phone Number">
+<input
+type="text"
+name="name"
+placeholder="Patient Name"
+required>
 
-<input placeholder="Preferred Date">
+<input
+type="tel"
+name="phone"
+placeholder="Phone Number"
+required>
 
-<select>
-<option>Select Treatment</option>
+<input
+type="date"
+name="date"
+required>
+
+<select
+name="treatment"
+required>
+
+<option value="">Select Treatment</option>
 <option>Dental Cleaning</option>
 <option>Root Canal</option>
 <option>Dental Implant</option>
 <option>General Checkup</option>
+
 </select>
 
-<button>
+<button type="submit">
 Request Appointment
 </button>
 
-</div>
+</form>
 <section class="trust-section">
 
 <h2>
